@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Roboto Mono'; /* Имя шрифта, используемое в CSS */
+    src: url('/fonts/Roboto_Mono/RobotoMono-VariableFont_wght.ttf') format('ttf'); 
+    font-weight: normal; /* Можно задать нормальный или жирный */
+    font-style: normal; /* Обычный или курсив */
+}
+
+/* Пример использования подключённого шрифта */
+body {
+    font-family: 'Roboto Mono', monospace;
+}
